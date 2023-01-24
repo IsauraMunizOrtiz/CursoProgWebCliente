@@ -1,0 +1,125 @@
+:root{
+    --colorPrincipal: rgb(153, 162, 227);
+    --colorSecundario: rgb(95, 2, 59);
+    --colorBotones: rgb(241, 138, 207);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+body{
+    font-size: 62.5%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(212, 221, 217);
+}
+/*--------------------- Configuraciones del Header ------------------------------*/
+header{
+    height: 135px;
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.header_img{
+    float: left;
+    height: 130px;
+    width: 185px;
+}
+.header_title{
+    float: left;
+    height: 130px;
+    width: 700px;
+    text-align: center;
+    padding: 30px 0;
+}
+.header_img img{
+    width: 180px;
+    border-radius: 10px ;
+}
+
+.header_title h1{
+    color: var(--colorSecundario);
+    font-size: 2rem;
+}
+/*--------------------- Configuraciones del Article -----------------------------*/
+article{
+    width: 900px;
+    margin:auto;
+    text-align: center;
+}
+
+.article_datos{
+    display: none;
+}
+
+.article_login{
+    margin-top: 50px;
+    margin: auto;
+    display: block;
+}
+
+.article_login_img{
+    margin-top: 40px;
+}
+
+
+.article_login_inputs{
+    margin: auto;
+    width: 200px;
+}
+
+.article_login_img img{
+    border-radius: 100px;
+    width: 100px;
+}
+
+.article_login_inputs input{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    border: 3px solid var(--colorSecundario);
+    border-radius: 10px;
+    height: 25px;
+    
+}
+
+.article_login_inputs button{
+    margin-top: 20px;
+    color: var(--colorSecundario);
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    font-weight: bold;
+
+}
+/* -------------------- Configuraciones del Footer ------------------------------*/
+footer{
+    width: 900px;
+    height: 110px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.footer_img{
+    float: left;
+}
+
+.footer_img img{
+    border-radius: 100px;
+    height: 130px;
+    width: 130px;
+}
+
+.footer_datosPersonales{
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: var(--colorSecundario);
+}
+
+.footer_datosLaborales{
+    float: right;
+    margin-top: 30px;
+    color: var(--colorSecundario);
+}
