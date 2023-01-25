@@ -49,9 +49,6 @@ article{
     text-align: center;
 }
 
-.article_datos{
-    display: none;
-}
 
 .article_login{
     margin-top: 50px;
@@ -93,6 +90,30 @@ article{
     font-weight: bold;
 
 }
+
+/*-------------------------------------------- sección de los datos de la tabla----------*/
+.datos{
+    display: block;
+    margin-top: 50px;
+    color: var(--colorSecundario);
+    
+}
+
+.datos_table{
+    width: 100%;
+    position: relative;
+}
+
+.datos table{
+    border: 3px solid;
+    margin:auto;
+}
+
+.datos th{
+    border: 1px solid;
+    width: 200px;
+}
+
 /* -------------------- Configuraciones del Footer ------------------------------*/
 footer{
     width: 900px;
